@@ -3,7 +3,7 @@
 require "class/Pessoa.php";
 require "class/Programador.php";
 
-#GET e SET
+#GET e SET.
 $pessoa = new Pessoa("Diego","www.diorygon.com");
 
 echo "Nome: ".$pessoa->getNome()."<br>";
