@@ -1,4 +1,6 @@
-use dbphp7;
+
+
+USE dbphp7;
 
 CREATE TABLE tb_usuarios(
 idusuario INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
@@ -11,11 +13,15 @@ INSERT INTO tb_usuarios(deslogin, dessenha) VALUES('root', 'root');
 
 SELECT * FROM tb_usuarios ORDER BY idusuario;
 
-UPDATE tb_usuarios SET dessenha = 'root' WHERE idusuario = 1;
+
+UPDATE tb_usuarios SET dessenha = 'pass' WHERE idusuario = 1;
+
+UPDATE tb_usuarios SET deslogin = 'login' WHERE idusuario = 1;
 
 DELETE FROM tb_usuarios WHERE idusuario = 6;
 
 TRUNCATE TABLE tb_usuarios;
+
 
 
 
