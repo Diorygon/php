@@ -9,7 +9,7 @@ dessenha VARCHAR(256) NOT NULL,
 dtcadastro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP()
 );
 
-INSERT INTO tb_usuarios(deslogin, dessenha) VALUES('sadsd', '34');
+INSERT INTO tb_usuarios(deslogin, dessenha) VALUES('saUMd', '78878');
 
 SELECT * FROM tb_usuarios ORDER BY idusuario;
 
