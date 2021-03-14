@@ -9,14 +9,14 @@ dessenha VARCHAR(256) NOT NULL,
 dtcadastro TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP()
 );
 
-INSERT INTO tb_usuarios(deslogin, dessenha) VALUES('root', 'root');
+INSERT INTO tb_usuarios(deslogin, dessenha) VALUES('sadsd', '34');
 
 SELECT * FROM tb_usuarios ORDER BY idusuario;
 
 
-UPDATE tb_usuarios SET dessenha = 'pass' WHERE idusuario = 1;
+UPDATE tb_usuarios SET dessenha = '123456' WHERE idusuario = 2;
 
-UPDATE tb_usuarios SET deslogin = 'login' WHERE idusuario = 1;
+UPDATE tb_usuarios SET deslogin = 'Diego' WHERE idusuario = 2;
 
 DELETE FROM tb_usuarios WHERE idusuario = 6;
 
