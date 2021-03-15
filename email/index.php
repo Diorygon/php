@@ -53,7 +53,7 @@ $mail->SMTPAuth = true;
 $mail->Username = 'diegomll4@gmail.com';
 
 //Password to use for SMTP authentication
-$mail->Password = 'Diory@25';
+$mail->Password = '';
 
 //Set who the message is to be sent from
 $mail->setFrom('diegomll4@gmail.com', 'Diego Mello');
