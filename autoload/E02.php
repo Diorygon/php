@@ -1,5 +1,6 @@
 <?php
 
+
 function incluirClasses($nomeClasse){
 
     if(file_exists($nomeClasse. ".php") === true){
